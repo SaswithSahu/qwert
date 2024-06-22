@@ -1,0 +1,30 @@
+.card{
+    background-color: white;
+    height:200px;
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+.buttons-container{
+    width:60%;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background-color: blueviolet;
+    border:0px;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    padding:10px;
+    color:white;
+}
